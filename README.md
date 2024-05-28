@@ -11,7 +11,7 @@ URLs: The addresses used to access web pages.</br>
 
 HTTP/HTTPS: These are protocols uses for transferring web pages over the internet.
 
-Analogy:
+Analogy:</br>
 Web pages are the books.</br>
 Web browsers are the librarians who help you find and read the books.</br>
 URLs are like catalog numbers that tell the librarian which book to want.</br>
