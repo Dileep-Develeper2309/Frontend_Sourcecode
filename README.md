@@ -17,7 +17,7 @@ Web browsers are the librarians who help you find and read the books.</br>
 URLs are like catalog numbers that tell the librarian which book to want.</br>
 HTTP/HTTPS: These are the methods that librarian uses to retrieve the book and hand over to you securely.
 
-# Explain <!DOCTYPE html> 
+# Explain  <!DOCTYPE html> 
 The <!DOCTYPE html> declaration is a critical component of HTML documents. It stands for "Document Type Declaration" and tells the web browser which version of HTML the document is written in. This declaration helps the browser render the content correctly. </br>
 For HTML5, the declaration is simply <!DOCTYPE html>
 
