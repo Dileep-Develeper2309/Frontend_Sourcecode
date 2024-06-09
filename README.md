@@ -32,6 +32,9 @@ HTML attributes consist of two parts: attribute name and its value
 # CSS Basic syntax
 selector { </br>
   property: value;</br>
-}
+}</br>
 
+Selector: The HTML element you want to style.</br>
+Property: The style attribute you want to change.</br>
+Value: The value of the property.
 
