@@ -29,5 +29,9 @@ We use it to define the structure and content of web pages, enabling broswers to
 HTML attributes provides additional information about the HTML elements/tags. </br>
 HTML attributes consist of two parts: attribute name and its value
 
-# 
+# CSS Basic syntax
+selector { </br>
+  property: value;</br>
+}
+
 
