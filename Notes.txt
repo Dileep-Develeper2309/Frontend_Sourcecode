@@ -32,6 +32,18 @@ HTML attributes consist of two parts: attribute name and its value
 # Form tag Syntax
 <form name="Name of the form" action="Link to server-side program" method="HTTP Request method" target="Where to display the response">
 </form>
+name ->	Unique name that identifies a form.
+action ->	URL of the destination page
+method ->	Commonly used HTTP methods are : GET and POST
+
+The default method is GET;
+
+GET: When this method is used, form data will be appended to the URL and visible to everyone. Example: /travelDestinySuccess.html?username=Alex.
+
+POST: When this method is used, form data is placed inside HTTP request body and not visible;
+
+novalidate ->	Skips validations upon form submission.
+target ->	opens response in a new window/tab, same frame
 
 # CSS Basic syntax
 selector { </br>
