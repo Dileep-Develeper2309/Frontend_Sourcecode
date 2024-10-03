@@ -87,12 +87,33 @@ readonly	->	Prevents user from modifying the value, value will passed on submit
 disabled	->	Prevents from modifying the value, value is not sent on submit
 multiple	-> 	allows to enter/select more than one value
 
-# CSS Basic syntax
-selector { </br>
-  property: value;</br>
-}</br>
+# Table Tag
+Syntax:
+<table>
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
-Selector: The HTML element you want to style.</br>
-Property: The style attribute you want to change.</br>
-Value: The value of the property.
+The border attribute is used to provide the border to the table.
+The <thead> tag is used to provide the heading to the table.
+The <tr> tag is used to create the rows in the table.
+The <th> tag is used to create the columns in the table.
+The <tbody> tag is used to enclose the content in table.
+The <td> tag is used to provide content or data to the table.
 
+# Anchor Tag
+Any text or image that provides a link to another webpage is called as "hyperlink".
+
+A website consists of multiple webpages. Generally webpages need to be linked with one another to make it navigable. To link webpages, anchor element is used.
+
+Syntax:
+<a href="url" target="value">Text</a>
