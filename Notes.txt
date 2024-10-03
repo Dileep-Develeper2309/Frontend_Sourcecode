@@ -50,6 +50,7 @@ The <input> tag specifies an input field used inside a form, where the user can 
 Syntax:
 <input type="input-type" value="element-value"/>
 
+Input types in HTML5 
 Value		Description
 text	->	Creates a string input field.
 password->	Creates a password input field in masked format
@@ -58,8 +59,6 @@ checkbox->	Creates a checkbox
 button	->	Creates a simple button
 submit	->	Creates a button to submit the form.
 reset	->	Creates a button to reset form fields.
-
-Type	->	Description
 date	->	Input represents date(year, month, date) value  
 email	->	Input represents an email address value
 number	->	Input represents a numerical value.
@@ -67,6 +66,26 @@ url		->	Input represents URL address value.
 file	->	Input that lets the user select a file.
 color	->	Input that lets the user choose a color.
 range	->	Input that lets the user choose a number from a range.
+
+Attributes of the input element 
+The table below lists the attributes of the <input> tag:
+
+Attributes		Description
+required	->	Value required for form submission.
+value		->	Specifies default value of input element.
+type		->	Identifies type of input element.
+name 		->	Name of input element used for form submission.
+size		->	Identifies the width of input text that the user can see.
+autofocus	->	Focuses on a particular form element automatically.
+maxlength	->	Identifies the maximum length of input value.
+minlength	->	Identifies the minimum length of input value.
+pattern	Specifies a pattern (regular expression) for entering input text. 
+placeholder	->	Displays a text (hint) within an input control for the user.
+steps		->	Specifies the legal number of intervals.
+formnovalidate	Skips validations upon form submission, used with submit button. 
+readonly	->	Prevents user from modifying the value, value will passed on submit
+disabled	->	Prevents from modifying the value, value is not sent on submit
+multiple	-> 	allows to enter/select more than one value
 
 # CSS Basic syntax
 selector { </br>
