@@ -120,3 +120,54 @@ Syntax:
 
 The href attribute is used to specify the URL of the webpage that needs to be linked.
 The target attribute is used to specify where to open the linked webpage.
+
+# Image Element
+Images can be inserted into HTML page by using <img/> tag.
+
+The <img/> tag is an empty tag as it does not have a closing tag.
+
+Attributes of image element
+Attributes		Description
+src				Specifies the path of the image
+border			Specifies the border of the image
+width 			Specifies the width of the image in pixels
+height			Specifies the height of the image in pixels
+alt				Provides an alternative text describing the image, if image is not available
+
+Attributes of Image element
+src attribute:
+The src attribute specifies the URL from where the image resource is loaded.
+
+alt attribute:
+The alt attribute provides an alternate text for an image. This is helpful when the user is unable to view the image because of slow connection, an error in the src attribute, or if the user uses a screen reader.
+
+The value of the alt attribute should describe the image. Therefore it is a good coding practice to use alt attribute.
+
+# Audio element
+The  audio element is used to embed audio in a web page. To play an audio file in HTML, use the <audio> tag.
+
+Attributes of audio tag:
+Let us now look at some important attributes for <audio> tag
+
+Attributes	Description
+src			Specifies the URL of the media resource
+controls	Media control feature like play/pause will be displayed
+loop		Causes the media to play in a loop
+autoplay	Media will play automatically on page load
+muted 		Media will play in muted state
+
+# Video element
+Video element
+The video tag specifies video, such as a movie clip or other video streams. The <video> tag specifies a standard way to embed a video in a web page.
+
+Let us now look at some important attributes for <video> tag
+
+Attributes		Description
+src				Specifies the URL of the media resource
+controls		Media control feature like play/pause will be displayed
+loop			Causes the media to play in a loop
+autoplay		Media will play automatically on page load
+muted 			Media will play in muted state
+width 			Specifies the width of the image in pixels
+height			Specifies the height of the image in pixels
+Poster			Representative frame for the video till the video is played
