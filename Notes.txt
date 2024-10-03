@@ -45,6 +45,29 @@ POST: When this method is used, form data is placed inside HTTP request body and
 novalidate ->	Skips validations upon form submission.
 target ->	opens response in a new window/tab, same frame
 
+# Input element in Forms
+The <input> tag specifies an input field used inside a form, where the user can enter data.
+Syntax:
+<input type="input-type" value="element-value"/>
+
+Value		Description
+text	->	Creates a string input field.
+password->	Creates a password input field in masked format
+radio	->	Creates a radio button.
+checkbox->	Creates a checkbox
+button	->	Creates a simple button
+submit	->	Creates a button to submit the form.
+reset	->	Creates a button to reset form fields.
+
+Type	->	Description
+date	->	Input represents date(year, month, date) value  
+email	->	Input represents an email address value
+number	->	Input represents a numerical value.
+url		->	Input represents URL address value.
+file	->	Input that lets the user select a file.
+color	->	Input that lets the user choose a color.
+range	->	Input that lets the user choose a number from a range.
+
 # CSS Basic syntax
 selector { </br>
   property: value;</br>
