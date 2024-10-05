@@ -193,3 +193,31 @@ Syntax:
 selector: pseudo-class { 
           css-property: value; 
          } 
+		 
+We can style our links based on their state using the following pseudo-classes.
+
+Pseudo-class	Description
+:link			It is used to style links which are not visited.
+:visited		Styles the state of the link when link is visited atleast once.
+:hover			Styles the state of the link when mouse is placed over the link.
+:active			Styles the state of the link, when you can click on the link.
+
+With the following pseudo-classes, we can also style the input fields based on their state.
+
+Pseudo-class	Description
+:focus			Styles the state of element that is currently targeted or activated by mouse.
+:enabled		Styles the state of element that is enabled and associated with input field.
+:required		Styles the input element with required attribute.
+:checked		Styles the state of element when it is selected.
+
+# Pseudo Elements:
+A CSS pseudo-element can be taken as a keyword that is added to a selector which lets you to design a specific part of the selected elements. 
+
+For example, it can be placeholder of input field or first line of the paragraph. Also, we can add content before and after the text using pseudo elements. 
+
+They are usually denoted by two colons (::) together, unlike single colon (:) for pseudo classes. 
+
+Syntax:
+selector::pseudo-element{ 
+            property: value; 
+           } 
