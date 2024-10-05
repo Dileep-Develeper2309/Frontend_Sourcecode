@@ -180,3 +180,16 @@ selectors {
   css-property: value; 
 } 
 
+# Pseudo-class
+A CSS pseudo-class can be described as a keyword that is added to a selector which defines a special state of the selected elements. Using the same we can provide the styling to be applied when the HTML element changes its state. 
+
+For example, it can be used to: 
+
+style an element when it gets focus, i.e. the state is "focus" 
+style an element when a user hovers over it, i.e. the state is "hover" 
+style visited and un-visited links differently 
+Syntax:
+
+selector: pseudo-class { 
+          css-property: value; 
+         } 
