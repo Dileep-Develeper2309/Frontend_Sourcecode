@@ -171,3 +171,12 @@ muted 			Media will play in muted state
 width 			Specifies the width of the image in pixels
 height			Specifies the height of the image in pixels
 Poster			Representative frame for the video till the video is played
+
+
+
+----------------------------CSS--------------------------
+# CSS syntax?
+selectors { 
+  css-property: value; 
+} 
+
