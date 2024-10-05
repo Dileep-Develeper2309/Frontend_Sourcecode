@@ -221,3 +221,12 @@ Syntax:
 selector::pseudo-element{ 
             property: value; 
            } 
+
+The different types of pseudo-elements are as shown in the table below:
+
+Pseudo-element	Description
+::first-line	Used to style first line of the text.
+::first-letter	Styles the first letter of text. Applied only to block level elements.
+::before		Used to insert content or style before the content of element.
+::after			Used to insert content or style after the content of element.
+::selection		Used to style the portion of element that is selected by the user.
