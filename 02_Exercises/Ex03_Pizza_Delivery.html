@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery</title>
+</head>
+<body>
+    <form action="#">
+        <table align="center" border="1" style="width: 50%">
+            <tr><th colspan="6" align="center">XYZ Online Delivery</th></tr>
+            <tr><th colspan="6" align="center">Person Details</th></tr>
+            <tr>
+                <td>First Name</td>
+                <td colspan="5"><label for="fname"><input type="text" required maxlength="20"></label></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td colspan="5"><label for="fname"><input type="text" required></label></td>
+            </tr>
+            <tr><th colspan="6" align="center">Order Preferences</th></tr>
+            <tr>
+                <td>Size</td>
+                <td colspan="5">
+                    <input type="radio" name="size"><label for="small">Small</label>
+                    <input type="radio" name="size"><label for="medium">Medium</label>
+                    <input type="radio" name="size"><label for="regular">Regular</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Base</td>
+                <td colspan="5">
+                    <select name="base" required>
+                        <option value="x">Pan Pizza</option>
+                        <option value="y">Cheese Crust</option>
+                        <option value="z">Chicken Stuffed Crust</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Toppings</td>
+                <td colspan="5">
+                    <input type="checkbox">
+                    <label for="a">Cheese</label>
+                    <input type="checkbox">
+                    <label for="c">Olives</label>
+                    <input type="checkbox">
+                    <label for="d">Tomatoes</label>
+                    <input type="checkbox">
+                    <label for="e">Capsicum</label>
+                    <input type="checkbox">
+                    <label for="f">Jalapenos</label>
+                    <input type="checkbox">
+                    <label for="g">Mushrooms</label>
+                    <input type="checkbox">
+                    <label for="h">Pepperoni</label>
+                    <input type="checkbox">
+                    <label for="i">Onion</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Additional Details</td>
+                <td colspan="5">
+                    <label for="address">
+                        <textarea name="additional" rows="3" cols="80">
+
+                        </textarea>
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="6" align="center">Confirm Details and Proceed to pay
+                    <input type="radio" name="go">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="go">
+                    <label for="no">No</label>
+                </th>
+            </tr>
+
+            <tr>
+                <td colspan="6" align="center">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
