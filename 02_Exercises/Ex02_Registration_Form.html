@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /* Add a red asterisk after required field labels */
+        label[for]::after {
+            content: " *";
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <table align="center" border="1" style="width: 50%">
+            <tr><td colspan="6" align="center">XYZ University Registration Form</td></tr>
+
+            <tr>
+                <td rowspan="5">Person Details</td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><Label for="fname"><input type="text" required maxlength="10"></Label></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><Label for="lname"><input type="text" required maxlength="10"></Label></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth</td>
+                <td><Label for="lname"><input type="date"></Label></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio"><label for="male">Male</label>
+                    <input type="radio"><label for="female">Female</label>
+                    <input type="radio"><label for="other">Others</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="5">Academic Details</td>
+            </tr>
+
+            <tr>
+                <td>Degree</td>
+                <td>
+                    <select name="degree">
+                        <option value="b">Bachelors</option>
+                        <option value="b">Masters</option>
+                        <option value="b">Doctorate</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Specialization</td>
+                <td><Label for="fname"><input type="text" required maxlength="40"></Label></td>
+            </tr>
+
+            <tr>
+                <td>Mode of Instruction</td>
+                <td>
+                    <input type="checkbox">
+                    <label for="online">Classroom</label>
+                    <input type="checkbox">
+                    <label for="online">Online</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Current CGPA</td>
+                <td><Label for="number"><input type="number" min="1" max="5"></Label></td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Contact Details</td>
+            </tr>
+
+            <tr>
+                <td>Phone Number</td>
+                <td><label for="mnumber"><input type="text" required></label></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <label for="address">
+                        <textarea name="address" cols="60" rows="4"></textarea>
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="6" align="center">I assured all the details entered are correct
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
