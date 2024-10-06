@@ -230,3 +230,6 @@ Pseudo-element	Description
 ::before		Used to insert content or style before the content of element.
 ::after			Used to insert content or style after the content of element.
 ::selection		Used to style the portion of element that is selected by the user.
+
+# What is Box Model? 
+The CSS box model is basically an invisible box which wraps around every HTML element. Thus, HTML elements are considered as boxes, be it a <div> tag or a <p> tag or any other tag. In CSS, the term "Box Model" is used when we are talking about design and layout. 
