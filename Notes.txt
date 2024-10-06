@@ -233,3 +233,15 @@ Pseudo-element	Description
 
 # What is Box Model? 
 The CSS box model is basically an invisible box which wraps around every HTML element. Thus, HTML elements are considered as boxes, be it a <div> tag or a <p> tag or any other tag. In CSS, the term "Box Model" is used when we are talking about design and layout. 
+
+CSS Box Model consists of following:  
+
+margins 
+borders 
+padding
+actual content
+
+Content - The innermost box in the CSS box model represents the content. This is the actual data/text/image that should be displayed. 
+Padding - The immediate box enclosing the content is called the padding. This is used to provide some space between any border applied and the actual data/text. The padding is transparent, and the dimensions can be modified to be closer to or farther away from the border. 
+Border - The border is a visible box enclosing the content and the padding. The border dimensions can be modified, and the border itself can be styled to be a colored dotted line/continuous line or more. 
+Margin - This margin is a transparent box outside the border. This is heavily used when we must display a lot of content and avoid content overlapping.
