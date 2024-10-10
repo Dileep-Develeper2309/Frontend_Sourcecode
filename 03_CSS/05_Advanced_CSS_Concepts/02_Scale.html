@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale</title>
+    <style>
+        .box {
+            float: left;
+            margin: 50px;
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            color: white;
+        }
+
+        #expand {
+            transform: scale(2);
+        }
+
+        #shrink {
+            transform: scale(0.75);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">No Scale </div>
+    <div class="box" id="expand">Box Expanded</div>
+    <div class="box" id="shrink">Box Shrinked</div>
+</body>
+
+</html>
