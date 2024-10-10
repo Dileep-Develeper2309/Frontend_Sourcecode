@@ -245,3 +245,9 @@ Content - The innermost box in the CSS box model represents the content. This is
 Padding - The immediate box enclosing the content is called the padding. This is used to provide some space between any border applied and the actual data/text. The padding is transparent, and the dimensions can be modified to be closer to or farther away from the border. 
 Border - The border is a visible box enclosing the content and the padding. The border dimensions can be modified, and the border itself can be styled to be a colored dotted line/continuous line or more. 
 Margin - This margin is a transparent box outside the border. This is heavily used when we must display a lot of content and avoid content overlapping.
+
+
+# Introduction to Flexbox:-
+Flexbox is one of the most widely used CSS properties that help us to align elements in the given available space of the HTML document.  
+
+It is a one-dimensional layout structure that has good and strong capabilities of aligning items dynamically within a given container by maintaining proper spaces between each item under that container. Since it supports dynamic change in appearance, it is named ‘flex’.  
