@@ -251,3 +251,215 @@ Margin - This margin is a transparent box outside the border. This is heavily us
 Flexbox is one of the most widely used CSS properties that help us to align elements in the given available space of the HTML document.  
 
 It is a one-dimensional layout structure that has good and strong capabilities of aligning items dynamically within a given container by maintaining proper spaces between each item under that container. Since it supports dynamic change in appearance, it is named ‘flex’.  
+
+Flex Container and its Properties:-
+Flex Container : A flexbox requires a container within which all elements can be aligned. Hence, a flex container will have the ability to alter all the elements that comes within that container but not any other element. 
+
+Properties of a flex container:
+
+display 
+flex-direction 
+flex-wrap
+
+# CSS Grid
+CSS Grid is the latest way to create layouts.  
+
+CSS grid is an effective tool for designing intricate web page layouts is CSS Grid. You can make rows and columns, specify their sizes and locations, and then insert content inside of them using CSS Grid. Here is a step-by-step tutorial on using CSS Grid to create a straightforward layout.
+
+Property	Description
+display: grid	
+This is what creates a grid system. Typically this is applied to a container 
+
+element within which all the content is placed.
+
+grid-column-template: 1fr 1fr	
+This allows to create a template for columns in all rows. This code example 
+
+would create two columns which occupy one fraction each of the available space
+
+grid-column:  3/5	
+This allows to span a column across grid lines. This code example would span the 
+
+column from line 3 to 5
+
+grid-gap:  5px	
+This allows to apply a gap between all rows and columns. This code example would 
+
+create a gap of 5px
+
+# Transformation
+A transformation is an effect that lets an element to change its shape, size, and position.
+The following are the few CSS transform functions:
+
+1. Translate
+
+2. Scale
+
+3. Rotate
+
+Translate
+Translate function is used to move an element in the horizontal, vertical direction and sideways.
+
+Syntax:
+transform : translate( x, y )
+
+Scale
+Scale function is used to resize an element.
+
+Using the scale function we can shrink and expand an element.
+
+Syntax:
+
+transform : scale(x) -> scales the height and width by x-value
+transform: scale(x,y) -> scales the element width(x-value) and height(y value)
+
+# Transition
+CSS transitions allow us to change the values of any property, over a given duration in a smooth manner rather than having them occur immediately.
+
+Using CSS transition, effects can be added to elements without the need for any scripting language or additional software like Flash.
+
+To create a transition effect, following must be specified:
+
+The CSS property to which the effect should be added.
+The duration of the effect.
+
+# What are CSS animations?
+
+CSS3 Animations can be used to replace animated images, scripts, and flash animations in most of the web pages.
+
+Animations in CSS are done using key-frames.
+
+The @keyframes style rule controls the intermediate steps in a CSS animation sequence.
+
+Step 1: Defining the animation using @keyframes and specify multiple changes in style
+
+@keyframes exampleAnimation {
+    from { background-color: red; }
+    to { background-color: yellow; }
+}
+
+As an alternative to step 1, we can break the whole animation down into incremental values to make up a total of 100% as shown below.
+
+@keyframes exampleAnimation2 {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50%  { background-color: blue; }
+    100% { background-color: green; }
+}
+
+Let's take the example of making an animation that slides a square from left to right. Using @keyframes, we can define the animation as follows:
+
+@keyframes move {
+    0%   { left: 0; }
+    100% { left: 100%; }
+}
+
+Step 2: Binding the animation to a selector. Here we will be binding the exampleAnimation to a div selector
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: exampleAnimation 4s;
+}
+
+As an alternative to step 2, we can specify each property separately as shown below:
+
+div {
+    animation-name: exampleAnimation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+# What is Responsive Web Design?
+Responsive Web Design(RWD) is an approach of designing your web application to make it render well on devices with different sizes.
+
+By RWD, the screen elements and contents automatically change its sizes and reshuffles their positions according to the available screen size which enhances the user experience for that application.
+
+The Viewport:-
+The user’s visible area of web page is known as viewport. It varies and is different for different sizes of screens. 
+
+Setting the viewport: 
+
+You should include the below meta tag in all web applications which needs to be responsive: 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+Media Queries:-
+Media queries are used to specify how the web page should look on different sizes of screens.
+
+Syntax:
+
+@media not|only mediatype and (expressions){ 
+        css-code 
+  } 
+  
+It consists of following elements: 
+
+media type: It is the screen on which the corresponding page is getting rendered. It can take the below given values according to the device we want to display our page in. 
+
+Value	Description
+All	All media type devices
+Print	Printer-friendly layouts
+Screen	All devices with a display screens
+Speech	Screen Reader friendly pages
+ 
+
+expressions: The expressions are used to specify a wide variety of specifications, like min-height or max-width or max-resolution or even whether the user should be able to hover over elements or not.
+
+The expressions are expected to be resolved to true or false. 
+
+If the specified expressions resolve to true, and the media type specified also matches the media type on which the page is displayed, then the media query result is true.
+
+If the media query result is true, only then will the specified CSS style be applied on the page.
+
+Operators: not or only are optional operators. Not keyword is used to negate the whole media query while only keywords prevents the old browsers that do not support media queries from applying the given style.
+
+Here is an illustration of the @media rule in action:
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Styles for devices with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for devices with a maximum width of 480 pixels */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+
+# Variables in CSS :-
+You can declare a value only once and reuse it across your stylesheet by using CSS variables, also referred to as CSS custom properties. This can make it simpler to maintain and update your CSS code because you only need to modify the variable's value once to have an impact across all of its usage.
+
+1. Declaring a variable 
+
+ While declaring a variable, the custom property name must start with -- (2 hyphens) followed by the property name. 
+
+ A variable can be declared as shown below
+
+--text-color: brown; 
+
+2. Using the declared variable 
+
+The variable which is declared can be used with a function called var. This function is helpful in inserting the value of a custom property instead of a pre-  defined value. 
+
+The variable can be assigned to any css property that accepts the declared value. 
+
+For example, if the variable declared is  
+
+  --text-color: brown; 
+
+Note: CSS variables are case sensitive 
