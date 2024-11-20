@@ -1,2 +1,2 @@
 let x = "Dileep";
-alert("Hi,"+x+" Let's learn JavaScript");
+console.log(`Hi,${x} Start revising JavaScript`);
